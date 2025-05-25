@@ -1,0 +1,9 @@
+# Ignore node_modules and .env inside the server directory
+/server/node_modules/
+/server/.env
+
+# Optional: Ignore logs and other typical junk
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
